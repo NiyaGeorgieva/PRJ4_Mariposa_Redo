@@ -29,12 +29,12 @@ body {
   }
 
   table thead tr th {
-    background-color: #BA2CE1;
-    color: white;
+    background-color: #BA2CE1!important;
+    color: white!important;
   }
   table th {
-    background-color: #DA6DE7;
+    background-color: #DA6DE7!important;
   }
   table td {
-    background-color: #FFBDE6;
+    background-color: #FFBDE6!important;
   }
