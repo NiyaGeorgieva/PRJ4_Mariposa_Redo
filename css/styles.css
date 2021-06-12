@@ -5,16 +5,16 @@ Light pink: #FFBDE6
 Soft pink: #FFF9F9
 */
 
-#navbar_logo{
-    max-height: 75px;
+#navbar_logo {
+  max-height: 75px;
 }
 
-.footer-logo{
-    max-height: 35px;
+.footer-logo {
+  max-height: 35px;
 }
 
 .navbar {
-    width: 100%;
+  width: 100%;
 }
 
 html {
@@ -23,67 +23,116 @@ html {
 }
 
 body {
-    margin-bottom: 60px;
-  }
+  margin-bottom: 60px;
+}
 
 table thead tr th {
-    background-color: #BA2CE1!important;
-    color: white!important;
-  }
+  background-color: #BA2CE1!important;
+  color: white!important;
+}
+
 table th {
-    background-color: #DA6DE7!important;
-  }
+  background-color: #DA6DE7!important;
+}
+
 table td {
-    background-color: #FFBDE6!important;
-    color: #BA2CE1!important;
-  }
+  background-color: #FFBDE6!important;
+  color: #BA2CE1!important;
+}
 
 .footer {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #FFBDE6 !important;
+}
+
+.active a {
+  font-weight: bold !important;
+}
+
+.navbar-text, .footer-link {
+  color: #BA2CE1 !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+body {
+  color: #BA2CE1;
+  font-family: 'Alice';
+  background-color: #FFF9F9;
+}
+
+.bg-light {
+  background-color: #FFBDE6 !important;
+}
+
+h1, h2, h3 {
+  color: #BA2CE1;
+  font-family: 'Overlock';
+}
+
+#register-logo {
+  height: 250px;
+}
+
+.form-control {
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-padding {
+  padding-top: 20px;
+}
+
+.big-top-padding {
+  padding-top: 150px;
+}
+
+.btn-success {
+  background-color: #BA2CE1!important;
+  border: 0;
+}
+
+.btn-success:hover {
+  background-color: #DA6DE7!important;
+  border: 0;
+}
+
+.side-panel {
+  padding: 75px 160px;
+  width: 20%;
+}
+
+.main-panel {
+  width: 60%;
+}
+
+.register-wrapper-container {
+  padding-top: 75px;
+  padding-bottom: 35px;
+}
+
+@media (max-width: 1199px) {
+  .side-panel {
+    display: none;
+  }
+  .main-panel {
     width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #FFBDE6 !important;
   }
-
-
-  .active a{
-    font-weight:bold !important;
-  }
-
-  .navbar-text, .footer-link {
-    color: #BA2CE1 !important;
-  }
-
-  .center-text{
-    text-align: center;
-  }
-  
-  body {
-    color: #BA2CE1;
-    font-family: 'Alice';
-    background-color: #FFF9F9;
-  }
-
-  .bg-light{
-    background-color: #FFBDE6 !important;
-  }
-
-  h1, h2, h3 {
-    color: #BA2CE1;
-    font-family: 'Overlock';
-  }
-  .top-padding {
+  .register-wrapper-container {
     padding-top: 20px;
   }
+}
 
-  .btn-success{
-    background-color: #BA2CE1!important;
-    border:0;
-  }
-
-  .btn-success:hover{
-    background-color:#DA6DE7!important;
-    border:0;
-  }
+.register-wrapper {
+  background-color: #FFBDE6!important;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
