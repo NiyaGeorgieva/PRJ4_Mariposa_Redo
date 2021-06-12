@@ -35,6 +35,7 @@ table th {
   }
 table td {
     background-color: #FFBDE6!important;
+    color: #BA2CE1!important;
   }
 
 .footer {
@@ -72,4 +73,17 @@ table td {
   h1, h2, h3 {
     color: #BA2CE1;
     font-family: 'Overlock';
+  }
+  .top-padding {
+    padding-top: 20px;
+  }
+
+  .btn-success{
+    background-color: #BA2CE1!important;
+    border:0;
+  }
+
+  .btn-success:hover{
+    background-color:#DA6DE7!important;
+    border:0;
   }
