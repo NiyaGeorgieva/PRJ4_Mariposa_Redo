@@ -216,3 +216,11 @@ h1, h2, h3 {
   border-radius: 40%;
   border:10px solid #DA6DE7 ;
 }
+
+.brand-intro {
+  background-color: #FFBDE6!important;
+}
+
+.margin-button {
+  margin-top: 20px;
+}
