@@ -19,8 +19,8 @@ Soft pink: #FFF9F9
 }
 
 .image-flip {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .navbar {
@@ -127,6 +127,7 @@ h1, h2, h3 {
   width: 60%;
 }
 
+
 .register-wrapper-container {
   padding-top: 75px;
   padding-bottom: 35px;
@@ -152,20 +153,20 @@ h1, h2, h3 {
 }
 
 .carousel-inner img {
-
-  height: 700px ;  
-  object-fit: cover; 
-  object-position: 50% 0; 
-
+  height: 700px;
+  object-fit: cover;
+  object-position: 50% 0;
 }
+
 .carousel-caption {
-  background-color:rgba(255,255,255,0.5);
-  color:black;
-  
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
 }
+
 .carousel {
   margin-bottom: 100px;
 }
+
 .btn-register {
   width: 70%;
   height: 50px;
@@ -174,25 +175,44 @@ h1, h2, h3 {
 
 @media (min-width: 992px) {
   .spiral-big {
-      display: inherit;
+    display: inherit;
   }
   .spiral-small {
-      display: none;
+    display: none;
   }
 }
+
 @media (max-width: 992px) {
   .spiral-big {
-      display: none;
+    display: none;
   }
   .spiral-small {
-      display: inherit;
+    display: inherit;
   }
 }
 
 #dropdown-registration {
-  text-align-last:center;
+  text-align-last: center;
 }
 
 .butterfly-divider {
   padding-bottom: 50px;
+}
+
+.success-wrapper {
+  background-color: #FFBDE6!important;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+}
+
+.img-person {
+    border-radius: 40%;
+    border:20px solid #DA6DE7;
+}
+
+.img-classes {
+  border-radius: 40%;
+  border:10px solid #DA6DE7 ;
 }
