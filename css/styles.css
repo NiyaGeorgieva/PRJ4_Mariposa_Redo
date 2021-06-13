@@ -214,6 +214,7 @@ h1, h2, h3 {
 .img-person {
     border-radius: 40%;
     border:20px solid #DA6DE7;
+    width:100%;
 }
 
 .img-classes {
