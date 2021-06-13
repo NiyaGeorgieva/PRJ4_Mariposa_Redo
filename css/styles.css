@@ -224,3 +224,7 @@ h1, h2, h3 {
 .margin-button {
   margin-top: 20px;
 }
+
+.bottom-padding-table {
+  padding-bottom: 30px;
+}
