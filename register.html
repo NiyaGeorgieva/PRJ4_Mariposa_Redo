@@ -65,17 +65,17 @@
                 <img class="img-fluid" id="register-logo" src="./images/logo.png">
                 <div class="form-group">
                   <label>E-mail Address </label>
-                  <input type="email" class="form-control" placeholder="Enter email" />
+                  <input type="email" class="form-control text-center" placeholder="Enter email" />
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                     else.</small>
                 </div>
                 <div class="form-group">
                   <label> Name </label>
-                  <input type="email" class="form-control" placeholder="Enter name" />
+                  <input type="email" class="form-control text-center" placeholder="Enter name" />
                 </div>
                 <div class="form-group">
                   <label> Program </label>
-                  <select class="form-control" id="exampleFormControlSelect1">
+                  <select class="form-control text-align-last:center;" id="dropdown-registration">
                     <option>Hiphop</option>
                     <option>Zumba</option>
                     <option>Ballet</option>
@@ -87,10 +87,7 @@
                   </select>
                 </div>
                 <div class="form-group">
-                  <a href="success.html"><button class="form-button btn btn-success">Register</button></a>
-                </div>
-                <div class="form-group">
-                  <a href="./index.html"><button class="form-button btn btn-danger">Cancel</button></a>
+                  <a href="success.html" class="form-button btn btn-success">Register</a>
                 </div>
               </div>
             </div>
@@ -105,22 +102,23 @@
   <!-- END OF PAGE CONTENT -->
 
   <footer class="footer font-small">
-    <div class="container text-center text-md-left">
-      <div class="row">
-        <div class="col-md-3">
-          <a class="footer-link" href="./justification.html"><b>Justification</b></a>
+    <div class="container-fluid text-center text-md-left">
+        <div class="row">
+            <div class="col-md-3">
+                <img class="float-left footer-butterfly-logo image-flip " src="./images/butterfly2.png">
+                <a class="footer-link float-right" href="./justification.html"><b>Justification</b></a>
+            </div>
+            <div class="footer-copyright text-center col-md-6">
+                <a class="footer-link" href="./index.html">© 2020 Copyright: Mariposa</a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://www.tiktok.com/@mariposadancestudio?lang=en"><img class="footer-logo mr-sm-4" src="./images/tiktok_logo.png"></a>
+                <a href="https://www.instagram.com/mariposadancestudio/"><img class="footer-logo" src="./images/instagram_logo.png"></a>
+                <img class="float-right footer-butterfly-logo " src="./images/butterfly2.png">
+            </div>
         </div>
-        <div class="footer-copyright text-center col-md-6">
-          <a class="footer-link" href="./index.html">© 2020 Copyright: Mariposa</a>
-        </div>
-        <div class="col-md-3">
-          <a href="https://www.tiktok.com"><img class="footer-logo mr-sm-4" src="./images/tiktok_logo.png"></a>
-          <a href="https://www.instagram.com/mariposadancestudio/"><img class="footer-logo"
-              src="./images/instagram_logo.png"></a>
-        </div>
-      </div>
     </div>
-  </footer>
+</footer>
   <script src="js/jquery-3.6.0.slim.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
