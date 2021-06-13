@@ -108,6 +108,10 @@ h1, h2, h3 {
   padding-bottom: 20px;
 }
 
+.bottom-padding {
+  padding-bottom: 20px;
+}
+
 .btn-success {
   background-color: #BA2CE1!important;
   border: 0;
