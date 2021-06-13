@@ -137,3 +137,57 @@ h1, h2, h3 {
   margin-right: auto;
 }
 
+.carousel-inner img {
+
+  height: 700px ;  
+  object-fit: cover; 
+  object-position: 50% 0; 
+
+}
+.carousel-caption {
+  background-color:rgba(255,255,255,0.5);
+  color:black;
+  
+}
+.carousel {
+  margin-bottom: 100px;
+}
+.btn-register {
+  background-color: #ba2ce3;
+  color: #ffdbef;
+  border: none;
+  width: 70%;
+  height: 50px;
+  line-height: 35px;
+}
+.btn-register:hover {
+  background-color: #ffc0e3;
+  color: #ba2ce3;
+  font-weight: bold;
+  border-radius: 1px;
+  border-color: #ba2ce3;
+  border-style: solid;
+  width: 70%;
+  height: 50px;
+  line-height: 30px;
+}
+.btn-register:active {
+  background-color: #d390b4;
+}
+.title-text {
+	font-family: 'Open Sans';
+	font-weight: bold;
+  color: #ba2ce3;
+}
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  .spiral-big {
+      display: inherit;
+  }
+  .spiral-small {
+      display: none;
+  }
+}
